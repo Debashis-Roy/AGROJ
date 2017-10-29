@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 这是下方的鼠标指针的移动镜头平方米。 */
+.cloud-zoom-lens {border: 4px solid #888;margin:-4px;background-color:#fff;cursor:move;}
+/* 这是标题文本 */
+.cloud-zoom-title {font-family:Arial, Helvetica, sans-serif;position:absolute !important;background-color:#000;color:#fff;padding:3px;width:100%;text-align:center;font-weight:bold;font-size:10px;top:0px;}
+/* 这是缩放窗�?�。 */
+.cloud-zoom-big {border:4px solid #ccc;overflow:hidden;}
+/* 这是加载消�?�。 */
+.cloud-zoom-loading {color:white;background:#222;padding:3px;border:1px solid #000;}
+.zoom-desc{float:left;margin-left:10px;width:310px;margin-bottom:20px;}
+.zoom-small-image{border:4px solid #CCC;float:left;margin-bottom:20px;}
+.zoom-tiny-image {margin: 10px;border: 2px solid #e8e8e8;}
