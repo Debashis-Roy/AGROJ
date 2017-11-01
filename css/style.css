@@ -378,6 +378,16 @@ transition: all 300ms ease-in 0s;}
 .single-product {
   overflow: hidden;
 }
+.single-product {
+    //box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
+    //transition: all 0s ease 0s;
+    border: 1px solid #fff;
+}
+.single-product:hover {
+    //box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
+    //transition: all 0s ease 0s;
+    border: 1px solid #e7e7e7;
+}
 .product-img-content {
   margin-bottom: 15px;
   padding-top: 5px;
@@ -431,6 +441,10 @@ span.sale-label {
   background: #C38749;
   color: #fff;
 }
+.single-product .product-content {
+    padding-left: 12px;
+    padding-right: 12px;
+}
 .product-content a {
   color: #000;
   font-size: 13px;
@@ -440,6 +454,7 @@ span.sale-label {
 .rating-icon i {
   color: #cfcfcf;
   cursor: pointer;
+  padding-bottom: 12px;
 }
 .rating-icon i:hover {
   color: #C38748;
@@ -1436,6 +1451,28 @@ ul.tab-menu li.active i {
   font-size: 12px;
   text-transform: uppercase;
 }
+
+/*----------------------------------------*/
+/*  User profile
+/*----------------------------------------*/
+
+.userProfile img {
+    max-height: 50px;
+    max-width: 50px;
+}
+.userProfilePadding .dropdown-menu {
+    margin: 2px 0px 2px -144px;
+}
+.mainmenu ul li ul li a {
+    transition: all 0ms ease-in 0s;
+}
+.log_in_style {
+    float: right;
+    //border-top: 1px solid #e7e7e7;
+    //border-left: 1px solid #e7e7e7;
+    //border-right: 1px solid #e7e7e7;
+}
+
 /*----------------------------------------*/
 /*  25.	Tab Content
 /*----------------------------------------*/
@@ -2961,15 +2998,15 @@ h3.widget-title-modal {
   z-index: 2;
 }
 #productModal button.close span {
-  border: 1px solid #909295;
-  border-radius: 60px;
-  color: #909295;
-  display: block;
-  height: 30px;
-  line-height: 30px;
-  padding-top: 1px;
-  text-align: center;
-  width: 30px;
+    border: 1px solid #909295;
+    border-radius: 4px;
+    color: #909295;
+    display: block;
+    height: 40px;
+    line-height: 30px;
+    padding-top: 4px;
+    text-align: center;
+    width: 40px;
 }
 #productModal .modal-header {
   border: 0 none;

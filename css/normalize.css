@@ -47,7 +47,7 @@ button,
 input,
 optgroup,
 select,
-textarea{color:inherit;font:inherit;margin:0;}
+textarea{color:#000;font:inherit;margin:0;}
 button{overflow:visible;}
 button,
 select{text-transform:none;}
