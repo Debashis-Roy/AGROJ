@@ -2129,13 +2129,39 @@ div.uploader span.action {
   border: 0 none;
   border-radius: 0;
   color: #666666;
-  cursor: pointer;
+  //cursor: pointer;
   font-size: 12px;
   height: 27px;
   max-width: 197px;
   outline: 0 none;
   padding: 0 23px 0 5px;
   text-shadow: 0 1px 0 #ffffff;
+}
+.logInOrSignUp .form-control {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  color: #666666;
+  font-size: 12px;
+  height: 36px;
+  max-width: 400px;
+  outline: 0 none;
+  padding: 0 23px 0 5px;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.logInOrSignUp {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+.logInOrSignUp .btn-default {
+    margin-right: 10px;
+    padding: 12px 30px 12px 15px;
+}
+.navContent {
+    margin-top: 30px;
+}
+.navContent label {
+    font-weight: normal;
 }
 .contact-us-area form.contact-form-box fieldset p {
   color: #0d6ec7;
